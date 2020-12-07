@@ -1,0 +1,100 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body{
+font-family: monospace;
+
+}
+.menu{
+    display: grid;
+    width: 90%;
+    height: 50px;
+    grid-template-columns: repeat(12,1fr);
+    margin: 0px auto;
+}
+.logo{
+    grid-column: 1/5;
+    margin: 20px;
+    color: #6C63FF;
+    font-size: 28px;
+}
+.section{
+    grid-column: 6/13;
+    display: flex;
+    justify-content: flex-end;
+}
+.barra{
+margin: 20px;
+}
+.contacto{
+    background:#6C63FF;
+    color: white;
+    text-align: center;
+    padding: 5px 0 ;
+    text-decoration: none;
+    border:5px solid #6C63FF;
+
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    width: 90%;
+    max-width: 1100px;
+    height: 100%;
+    margin: auto;
+    gap: 20px;
+    align-items: center;
+    overflow: hidden;
+}
+.titulo{
+    font-size: 35px;
+}
+.parrafo{
+        margin-bottom: 20px;    
+    }
+.header {
+    height: 500px;
+}
+.img-svg{
+width: 95%;
+height: auto;
+grid-column: 7/13;
+}
+.img{
+    width: 100%;
+    max-width: 600px;
+}
+.textos-hero{
+    grid-column: 1/7;
+    padding-right: 20px;
+    color:black;
+
+}
+.textos-hero p{
+    text-align: justify;
+}
+.texto-kuntur{
+    color: #6C63FF;
+}
+.cta{
+    width: 130px;
+    background:#6C63FF;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0 ;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
