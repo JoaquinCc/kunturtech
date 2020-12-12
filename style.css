@@ -137,8 +137,23 @@ grid:repeat(1,1fr)/repeat(4,1fr);
     grid-row: 3/5;
     width: 80%;
     margin: auto;
-}
+    height: 200px;
 
+}
+/* icons */
+.descripcion i {
+    color:#000;
+    font-size: 30px;
+    margin: 3px;
+    
+}
+.icons{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+
+}
 
 
 
