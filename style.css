@@ -52,8 +52,8 @@ color: #000;
 @media screen and (max-width:780px){
     .menu{
         height: 120px;
-        margin: 20px auto;
-        width: 100%;
+        margin: 10px auto;
+        width: 90%;
     }
 .logo{
     grid-column: 1/-1;
