@@ -6,6 +6,7 @@ box-sizing: border-box;
 }
 body{
     font-family: 'Roboto', sans-serif;
+    
 }
 .menu{
     display: grid;
@@ -37,8 +38,13 @@ margin: 20px;
     border:5px solid #6C63FF;
 
 }
+.contacto:hover{
+background-color: #6e7dff;
+color: #000;
 
+}
 
+/* layout */
 .grid{
     display: grid;
     grid-template-columns: repeat(12,1fr);
@@ -90,6 +96,25 @@ grid-column: 7/13;
     text-decoration: none;
 
 }
+/* el hover es un pseudoclase que cambia las caracteristicas al mover el puntero */
+.cta:hover{
+background-color: #6e7dff;
+color: #000;
+
+}
+@media screen and (max-width:780px){
+.textos-hero{
+    grid-column: 1/-1;
+    margin: 20px auto;
+}
+.img-svg{
+    grid-column: 2/12;
+    margin: auto;
+    width: 80%;
+}
+
+}
+/* mision */
 .mision{
 width: 90%;
 margin: auto;
@@ -110,6 +135,19 @@ max-width: 1100px;
     width: 90%;
     height: auto;
 }
+@media screen and (max-width:780px){
+.description{
+    grid-column: 1/-1;
+    margin: auto;
+}
+
+.imagen{
+    grid-column: 2/13;
+    margin: auto;
+
+}
+
+} 
 /* integrantes */
 .integrantes{
    width: 90%;
@@ -117,11 +155,15 @@ max-width: 1100px;
    margin: 20px auto;
    justify-content: space-around;
    height: auto;
+   /* esto me ayuda aque tome el tamaño real de la caja */
+   flex-wrap: wrap;
 }
 .card{
 width:  280px;
-height: 380px;
+height: 320px;
+margin: 20px;
 }
+
 .face{
     grid-row: 1/3;
     width: 80%;
@@ -151,6 +193,10 @@ height: 380px;
     margin:auto;
     display: flex;
     justify-content: space-around;
+
+}
+.descripcion i:hover{
+color: #6C63FF;
 
 }
 /* proyectos */
