@@ -69,7 +69,7 @@ color: #000;
 }
 .logo img{
     margin: auto;
-    width: 90%;
+    width: 80%;
 }
 .section{
     grid-column: 2/12;
